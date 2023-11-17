@@ -20,6 +20,7 @@ public class SpringBootApplicationManyToManyMappingApplication implements Comman
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootApplicationManyToManyMappingApplication.class, args);
 		System.out.println("anil naidu");
+		
 	}
 
 	@Autowired
@@ -35,6 +36,7 @@ public class SpringBootApplicationManyToManyMappingApplication implements Comman
 
 		List<Item> asList = Arrays.asList(item, item2, item3, item4);
 		Set<Item> items = new HashSet<>(asList);
+		System.out.println("anil naidu");
 
 		Item i1 = new Item("watch", 18);
 		Item i2 = new Item("trimmer", 799);
